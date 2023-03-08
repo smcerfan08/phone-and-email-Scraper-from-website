@@ -27,7 +27,7 @@ for i, url in enumerate(urls):
     driver.get(url)
     
     # Print the current website being visited
-    print(f"Data Scrapper(1.0.0) {i+1}: {url}")
+    print(f"Data Scrapper({i+1}) {url}")
 
     # Get the HTML content of the page
     html = driver.page_source
